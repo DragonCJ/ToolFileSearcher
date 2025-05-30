@@ -1,0 +1,22 @@
+# 日志目录
+log/
+
+# 反编译临时文件目录
+temp_decompiled/
+
+# Python编译缓存
+biz/__pycache__/
+gui/__pycache__/
+*.py[cod]
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器临时文件
+*.swp
+*.swo
+*.sublime-*
+
+# 项目特定文件
+cfr.jar
