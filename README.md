@@ -21,9 +21,13 @@
    - 包含目录选择、关键字输入、搜索按钮等功能
    - 显示搜索结果列表
 
+## 效果图
+
+![效果图](img/效果图.jpg)
+
 ## 使用说明
 
-1. 运行`file_search_tool.py`启动程序
+1. 运行`main.py`启动程序
 2. 点击"选择目录"按钮指定搜索目录
 3. 输入关键字并点击"开始搜索"按钮
 4. 双击搜索结果打开对应文件
@@ -38,10 +42,10 @@
 
 ```
 .
-├── cfr.jar            # CFR反编译器
-├── file_search_tool.py # 主程序
+├── cfr.jar             # CFR反编译器
+├── main.py             # 主程序
 ├── search_logic.py     # 搜索逻辑实现
-├── ui.py              # 用户界面实现
-├── temp_decompiled/   # 反编译文件存储目录
-└── log/               # 日志目录
+├── file_search_ui.py   # 用户界面实现
+├── temp_decompiled/    # 反编译文件存储目录
+└── log/                # 日志目录
 ```
